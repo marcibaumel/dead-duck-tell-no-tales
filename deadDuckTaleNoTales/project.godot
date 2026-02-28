@@ -8,12 +8,20 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="deadDuckTaleNoTales"
 run/main_scene="uid://dc25x5j2nf26k"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Recorder="*uid://bkbmnr84bmfog"
 
 [display]
 
